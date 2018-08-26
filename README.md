@@ -5,13 +5,13 @@ This is the repository for CSH1F2 Pengantar Teknik Informatika (Intriduction to 
 It will be used for interaction between lecturer and students for individual as well as group class projects.
 
 We will be learning and having fun experience on various introductory topics in the realm of Computer Science:
- Introduction and Internet
- Algorithm
- Data Structures
- Data Representation and Visualization
- User Interface and User Experience
- Big Data and DAta Analytics
- Modern Software Development Approach using Agile+Git+CICD
+ Introduction and Internet,
+ Algorithm,
+ Data Structures,
+ Data Representation and Visualization,
+ User Interface and User Experience,
+ Big Data and DAta Analytics,
+ Modern Software Development Approach using Agile+Git+CICD ...
 
 Happy exploring!
 
