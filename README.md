@@ -3,7 +3,7 @@
 =======
 # CSH1F2-2018-IF42INT
 
-This is the repository for CSH1F2 Pengantar Teknik Informatika (Intriduction to COmputer Science) 1st Semester 2018/2019.
+This is the repository for CSH1F2 Pengantar Teknik Informatika (Introduction to Computer Science) 1st Semester 2018/2019.
 
 It will be used for interaction between lecturer and students for individual as well as group class projects.
 
