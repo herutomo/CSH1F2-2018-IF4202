@@ -1,6 +1,6 @@
 # CSH1F2-2018-IF42INT
 
-This is repository for class colaboration in subject Introduction to Computer Science (Pengantar Teknik Informatika) - School of Computing - Telkom University, IF-42-INT.
+This is repository for class collaboration in Introduction to Computer Science (Pengantar Teknik Informatika) subject - School of Computing - Telkom University, IF-42-INT.
 
 It will be used for interaction between lecturer and students for individual as well as group class projects.
 
