@@ -1,0 +1,68 @@
+Telkom University
+
+Term:		2018/2019
+
+Subject:	CSH1F2
+
+Subject Name:	Introduction to Computer Science
+
+Topic:		Session 2
+
+Theme:		Class Project
+
+
+
+Instructions:
+
+
+
+1 Make a directory in your computer OS called CSH1F2-2018-IF42INT
+
+
+2 Change to the directory
+
+
+3 Initiate a local repository in the directory by issuing this command : git init
+
+
+4 Check the status of your repository with this : git status
+
+
+5 Check the commit history in your repository with this : git log --oneline
+
+
+6 Add remote repository :
+    
+	For IF42INT	git remote add origin https://github.com/herutomo/CSH1F2-2018-IF42INT.git
+    
+	For IF4202	git remote add origin https://github.com/herutomo/CSH1F2-2018-IF4202.git
+
+
+7 Check the list of remote repository with this : git remote -v
+
+
+8 Pull content of remote repository from master branch : git pull origin master
+
+
+9 Create your branch in local repository dan enter to the branch : git checkout –b <your_student_id>
+
+
+10 Submit Quiz file with these series of command :
+    
+
+	10a Answer all questions in CSH1F2_2018_Session2_Class-Project.txt
+	10b Rename it to CSH1F2_2018_Session2_Class-Project_<your_student_id>.txt
+    
+	10c Add the file to local repository : git add CSH1F2_2018_Session2_Class-Project_<your_student_id>.txt
+
+	10d Commit the file to local repository : git commit CSH1F2_2018_Session2_Class-Project_<your_student_id>.txt –m “<your_full_name> <your_student_id>”
+
+	10e Update your work to remote repository : git push origin <your_student_id>
+
+
+
+11 Back to master branch in local repository : git checkout master
+
+
+Have a nice exploration ...
+
