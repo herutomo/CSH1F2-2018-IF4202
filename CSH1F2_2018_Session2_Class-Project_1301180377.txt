@@ -1,0 +1,70 @@
+Telkom University
+Term:         2018/2019
+Subject:      CSH1F2
+Subject Name: Introduction to Computer Science
+Topic:        Session 2
+Theme:        Class Project
+
+Peer reviewer:
+
+Student Name: 
+Student ID:
+Results (= number of correct answers * 2.5):   
+
+
+Instructions:
+
+This is worksheet for class project session 2. Complete student data here:
+
+Student Name: Yasri Ridho Pahlevi
+Student ID:   1301180377
+Class:	      IF-42-02
+
+Please submit this individual worksheet through git DVCS mechanism by:
+IF-42-02	16.45  UTC+07.00, 31 August 2018
+IF-42-INT	18.00  UTC+07.00, 31 August 2018
+
+The following lines contain a number of simple problem statements.  Read each problem statement and determine whether it is an Action, Loop, or Decision.  
+In front of each statement, write the problem number and "A" for Action, "L" for Loop, or "D" for Decision.
+
+1.( A ) Print the name of your best friend.
+2.( L ) Print "RAIDERS ARE CHAMPS" 39 times.
+3.( D ) If you were born in California, print "NATIVE", otherwise print "RESIDENT".
+4.( A ) Compute 7 times 17.
+5.( D ) Print the name of the team that won the superbowl.
+6.( L ) Print the sentence "STAMP OUT SILICON FEAR" ninetynine times.
+7.( D ) If your name is the same as the teacher's first name, print "SAME", otherwise print "DIFFERENT".
+8.( A ) Print "Michael Jackson eats Wheaties".
+9.( D ) If your best score on Frogger is better than your friend's, print "I'm better" otherwise print "My friend is better".
+10.( A ) Print the name of a movie star you like the best.
+11.( D ) If Ronnie Lott is heavier than Joe Montana, print "Ronnie's heavier", otherwise print "Joe's heavier."
+12.( L ) Print the name "Kilgore Trout" in each row of the display screen.
+13.( L ) Print the pattern 'XXOOXX' seven times.
+14.( L ) Print your name in the center of the screen.
+15.( A ) Compute the square root of 17.
+16.( A ) Round off your temperature to the nearest degree.
+17.( L ) Print an asterick ("*") in each column of the top row of the display screen.
+18.( A ) Ask the user for his or her age.
+19.( L ) Sally has 50 dollars in the bank.  She plans to deposit 5 dollars each month.  For each month of the year, calculate her new account balance.
+20.( L ) Print a square in the upper right corner of the screen.
+21.( A ) Garfield the cat is eight years old, and weighs seven pounds.Print the sum of his age and weight.
+22.( D ) If there are more letters in your name than there are in Johnny Carson's name, print "Mine's longer", otherwise print "Mine's shorter".
+23.( D ) If Jackie is taller than Nancy then print Jackie's name, otherwise print Nancy's name.
+24.( A ) Ask the user for his or her name.
+25.( L ) Print 27 dollar signs ($) on a line.
+26.( A ) Compute the sum of 7 times 3 and 9 times 5.
+27.( A ) Ask the user for today's date.
+28.( A ) For each student in the class input his or her weight and add it to a total.
+29.( L ) compute the sum of odd numbers between 11 and 51.
+30.( L ) For each number from 1 to 50, print the number and its square root.  (Print a table of square roots for numbers up to 50.)
+31.( L ) Joe can read 65 pages a day.  Compute how long it would take him to finish a 350 page book.
+32.( L ) 30 days before the start of the Olympics scalped tickets were being sold at $100.  As the big day nears the price goes up $50 each day. Print a list showing the price of a ticket on each day of the month preceding the start of the Olympics.
+33.( L ) Print 75 question marks (?) on a line.
+34.( D ) In a regular 1 hour TV program there are 4 commercial breaks.  Compute the total number of commercials if there are 7 commercials each break.
+35.( A ) Barbara earns 17 dollars every day.  Assume she works 24 days/month, and compute her monthly salary.
+36.( L ) For each line of the display screen, print "XO" all the way across the line.
+37.( L ) Print "XXXXOOOO" ten times.
+38.( A ) Print a conversion table from Fahrenheit degrees to Celsius degrees for 0 to 250 degrees.
+39.( L ) Jill wants to find the total playing time of her favorite album, "Synchronicity."  For each song on the album, enter the playing time and add it to a total.
+40.( L ) Simon the rugmaker is taking inventory.  For each rug in the shop, input the price of the rug and add it to a total.
+
