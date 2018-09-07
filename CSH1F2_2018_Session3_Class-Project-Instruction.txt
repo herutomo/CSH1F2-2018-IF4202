@@ -1,23 +1,14 @@
 Telkom University
-
 Term:		2018/2019
-
 Subject:	CSH1F2
-
 Subject Name:	Introduction to Computer Science
-
 Topic:		Session 3
 Theme:		Class Project
 
 
-
 Instruction:
 
-
-
-
 We will understand algorithms by just sorting out simple puzzle containing pieces of code.
-
 When ordered properly, you can see a working Ping Pong game with 1 player.
 
 So lets start it up :
@@ -31,23 +22,15 @@ So lets start it up :
 
 2 Check the status of your repository with this : git status
 
-
 3 Check the commit history in your repository with this : git log --oneline
-
 
 4 Submit Class Project file (.sb file for Scratch) with these series of commands :
 
-
 	4a Download Scratch stuff with this menu : File > Download to Your Computer
-	4b Save file as CSH1F2_2018_Session3_Class-Project_<your_student_id>.sb2
-    
+	4b Save file as CSH1F2_2018_Session3_Class-Project_<your_student_id>.sb2    
 	4c Add the file to local repository : git add CSH1F2_2018_Session3_Class-Project_<your_student_id>.sb2
-
-	4d Commit the file to local repository : git commit CSH1F2_2018_Session3_Class-Project_<your_student_id>.sb2 ñm ì<your_full_name> <your_student_id>î
-
+	4d Commit the file to local repository : git commit CSH1F2_2018_Session3_Class-Project_<your_student_id>.sb2 ‚Äìm ‚Äú<your_full_name> <your_student_id>‚Äù
 	4e Update your work to remote repository : git push origin <your_student_id>
-
-
 
 5 Back to master branch in local repository : git checkout master
 
