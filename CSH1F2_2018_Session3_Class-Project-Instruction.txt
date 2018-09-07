@@ -1,0 +1,49 @@
+Telkom University
+Term:		2018/2019
+Subject:	CSH1F2
+Subject Name:	Introduction to Computer Science
+Topic:		Session 3
+Theme:		Class Project
+
+
+Instruction:
+
+We will understand algorithms by just sorting out simple puzzle containing pieces of code.
+When ordered properly, you can see a working Ping Pong game with 1 player.
+
+So lets start it up :
+
+1 Upload .sb2 file to https://scratch.mit.edu:
+
+	1a Enter the branch that you created in Session 2 by doing : git checkout <your_student_id>
+	1b Do the following in your working branch inside your local repository from Session 2 : git pull origin master 
+	1c Find a file called CSH1F2_2018_Session3_Class-Project.sb2 and upload it to Scratch editor with this menu : File > Upload from Your Computer
+	1d Select Ball Sprite in Scratch (on the bottom left on Scratch editor screen) and solve the scrambled pieces of code (on the right side of Scratch editor screen)
+
+2 Check the status of your repository with this : git status
+
+3 Check the commit history in your repository with this : git log --oneline
+
+4 Submit Class Project file (.sb file for Scratch) with these series of commands :
+
+	4a Download Scratch stuff with this menu : File > Download to Your Computer
+	4b Save file as CSH1F2_2018_Session3_Class-Project_<your_student_id>.sb2    
+	4c Add the file to local repository : git add CSH1F2_2018_Session3_Class-Project_<your_student_id>.sb2
+	4d Commit the file to local repository : git commit CSH1F2_2018_Session3_Class-Project_<your_student_id>.sb2 –m “<your_full_name> <your_student_id>”
+	4e Update your work to remote repository : git push origin <your_student_id>
+
+5 Back to master branch in local repository : git checkout master
+
+6 Wait for further instruction from lecturer.
+
+Have a nice gaming ...
+
+Bonus:
+
+If you are learning Algorithm and Data Structures or Algorithm and Programming subject, then you can also learn from this Scratch pseudocodes:
+
+1 visualization of sorting algorithms: https://scratch.mit.edu/projects/149793697/#
+
+2 primality testing algorithm: https://scratch.mit.edu/projects/94519097/
+
+3 string search algorithm: https://scratch.mit.edu/projects/107691199/
