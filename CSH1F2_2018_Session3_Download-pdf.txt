@@ -1,0 +1,29 @@
+Telkom University
+
+Term:		2018/2019
+
+Subject:	CSH1F2
+
+Subject Name:	Introduction to Computer Science
+
+Topic:		Download pdf of Lectures
+Theme:		Reference
+
+
+
+Instructions:
+
+
+
+To download pdf of this class, you can do these commands:
+
+1 check your list of branches in local repository : git branch
+
+2 create and go to presentation branch in local repository : git checkout -b presentations
+
+3 fetch updated list of presentation in remote repository branch "presentation" to your local repository branch "presentations"	: git fetch origin presentation
+
+4 then check your position with this : git log --oneline
+
+5 and back to master branch : git checkout master
+
