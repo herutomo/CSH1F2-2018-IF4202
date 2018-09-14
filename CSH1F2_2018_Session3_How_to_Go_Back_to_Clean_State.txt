@@ -1,0 +1,28 @@
+Telkom University
+
+Term:		2018/2019
+
+Subject:	CSH1F2
+
+Subject Name:	Introduction to Computer Science
+
+Topic:		Back to Clean State
+Theme:		Reference
+
+
+
+Instructions:
+
+
+
+If you happen to experience stuck with your git, or if you randomly run git commands without following step by step instructions, and want to start from scratch, 
+you can do these commands:
+
+1 switch to master branch in local repository : git checkout master
+
+
+2 reset your local repository : git pull --rebase origin master
+
+
+3 and then you can do following the instruction in order
+
