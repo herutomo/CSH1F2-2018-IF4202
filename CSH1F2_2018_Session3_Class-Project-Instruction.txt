@@ -15,10 +15,13 @@ So lets start it up :
 
 1 Upload .sb2 file to https://scratch.mit.edu:
 
-	1a Enter the branch that you created in Session 2 by doing : git checkout <your_student_id>
-	1b Do the following in your working branch inside your local repository from Session 2 : git pull origin master 
-	1c Find a file called CSH1F2_2018_Session3_Class-Project.sb2 and upload it to Scratch editor with this menu : File > Upload from Your Computer
-	1d Select Ball Sprite in Scratch (on the bottom left on Scratch editor screen) and solve the scrambled pieces of code (on the right side of Scratch editor screen)
+	1a There will be 2 new files:
+		CSH1F2_2018_Session3_Class-Project-Instruction.txt
+		CSH1F2_2018_Session3_Class-Project.sb2
+	1b Enter the branch that you created in Session 2 by doing : git checkout <your_student_id>
+	1c Do the following in your working branch inside your local repository from Session 2 : git pull origin master 
+	1d Find a file called CSH1F2_2018_Session3_Class-Project.sb2 and upload it to Scratch editor with this menu : File > Upload from Your Computer
+	1e Select Ball Sprite in Scratch (on the bottom left on Scratch editor screen) and solve the scrambled pieces of code (on the right side of Scratch editor screen)
 
 2 Check the status of your repository with this : git status
 
@@ -27,14 +30,23 @@ So lets start it up :
 4 Submit Class Project file (.sb file for Scratch) with these series of commands :
 
 	4a Download Scratch stuff with this menu : File > Download to Your Computer
-	4b Save file as CSH1F2_2018_Session3_Class-Project_<your_student_id>.sb2    
-	4c Add the file to local repository : git add CSH1F2_2018_Session3_Class-Project_<your_student_id>.sb2
-	4d Commit the file to local repository : git commit CSH1F2_2018_Session3_Class-Project_<your_student_id>.sb2 –m “<your_full_name> <your_student_id>”
-	4e Update your work to remote repository : git push origin <your_student_id>
+	4b Solve puzzles of code in Scratch editor :
+		make sure you have Chrome installed and allow installation of Adobe Flash Player.
+		go to https://scratch.mit.edu and select " Create " menu on top - you will enter Editor.
+		you also need to register in Scratch.mit.edu homepage.
+		solve the puzzles of code (Script) in Sprite " Ball ".
+		dont change any Scripts in Sprite " Paddle ". 
+	4c Save file as CSH1F2_2018_Session3_Class-Project_<your_student_id>.sb2    
+	4d Add the file to local repository : git add CSH1F2_2018_Session3_Class-Project_<your_student_id>.sb2
+	4e Commit the file to local repository : git commit CSH1F2_2018_Session3_Class-Project_<your_student_id>.sb2 –m “<your_full_name> <your_student_id>”
+	4f Update your work to remote repository : git push origin <your_student_id>
 
 5 Back to master branch in local repository : git checkout master
 
 6 Wait for further instruction from lecturer.
+
+After finished, please have time to learn how the code works.
+It is actualy an example of event driven programming, where program is " listening " to events and responding accordingly.
 
 Have a nice gaming ...
 
