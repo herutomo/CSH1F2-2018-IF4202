@@ -10,7 +10,7 @@ We will be learning and having fun experience on various introductory topics in 
  Data Structures,
  Data Representation and Visualization,
  User Interface and User Experience,
- Big Data and DAta Analytics,
+ Big Data and Data Analytics,
  Modern Software Development Approach using Agile+Git+CICD ...
 
 Happy exploring!
