@@ -1,0 +1,16 @@
+built-in string method in phython
+str.capitalize() = untuk mengkapitalisasi string pada abjad pertama
+len(var) = untuk mengukur berapa banyak word yang ada pada string tsb
+var.isdigit() = untuk mengetahui apakah string tsb hanya mengandung digit atau tidak
+var1.replace('string in var1', var2) = untuk mengganti beberapa part string dari var1 diganti dengan var2 atau string lainnnya
+var.find(subvar) = untuk mengetahui apakah ada substring pada string yang ingin dicari
+
+type() = untuk mengetahui tipe data apa yang dipakai pada var tertentu
+
+built in list method in python
+var_list.append() = menambah data list baru di bagian akhir list yang tersedia
+var_list.insert() = menambah data list baru di bagian awal list
+var_list.remove() = menghapus data list yang ada di list tsb
+var_list.sort() = untuk mengurutkan list data dari terkecil ke terbesar
+var_list.reverse() = untuk mengurutkan list data dari terbesar ke terkecil
+
