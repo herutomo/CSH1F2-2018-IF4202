@@ -1,0 +1,104 @@
+Telkom University
+
+Term:		2018/2019
+
+Subject:	CSH1F2
+
+Subject Name:	Introduction to Computer Science
+
+Topic:		Session 5
+Theme:		Class Project
+
+
+
+Instruction:
+
+
+
+
+We will continue our journey to understand data structure with experience on how some data structure types working.
+You are free to choose and use other materials for comparison and learning improvement.
+
+We will use and embrace the media below:
+	Python as our language technology
+	Microsoft Azure Cloud as our infrastructure
+	Jupyter Notebook as our live code sharing 
+
+Python is an interpreted high-level programming language for general-purpose programming created by Guido van Rossum in 1991. 
+
+Why Python? 
+For the sake of Computer Science, Python got its exposure lately because of its libraries and extensions in scientific and numeric computing arena:
+SciPy is a collection of packages for mathematics, science, and engineering.
+Pandas is a data analysis and modeling library.
+IPython is a powerful interactive shell that features easy editing and recording of a work session, and supports visualizations and parallel computing.
+
+Microsoft Azure is an ever-expanding set of cloud services to help organization meet business challenges. It’s the freedom to build, manage, and deploy applications on a massive, global network of cloud computing platform using most of our favorite tools and frameworks. It leads the cloud computing industry together with Amazon Web Services (AWS) and Google Cloud Platform (GCP).
+
+Why Microsoft Azure not AWS, whats the differentiation between these 3?
+Because Im a fan of Google Cloud ... no, just kidding.
+We will explore it in the subsequent sessions after mid semester.
+
+Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Jupyter Notebook is widely used amongst Data Scientists community; uses include: data cleansing and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.<br> 
+
+Why use Jupyter Notebook?
+We will employ its power to visualize some of data structure types in action and run live codes.
+
+Please note that we only limit our discussion scope to Array and List in Non Primitive Data Structure.
+The reason is these two are the commonly used data structures especially for the purpose of extracting and managing data.
+After you run the iPython Notebook from this class project, you are free to explore the other data structure from the material below using Jupyter Notebook, either in Microsoft Azure or install your own Jupyter Notebook Server behind a proxy like mine.
+
+
+The class project below will typically take around 15 to 45 minutes end to end, therefore I asked you to do it inside our class timeframe.
+
+Lets rock n roll:
+
+1 Prepare your local repository:
+
+	1a Enter the branch that you created in Session 2 by entering the folder in your computer and do : git checkout <your_student_id>
+		Attention: 
+		please use the directory / folder that you have been working on since Session 2.
+		if you use a new directory or folder or new computer, you have to follow the Git initiation and related process before you start working.
+
+	1b Do the following in your working branch inside your local repository from Session 2 : git pull origin master 
+
+	1c This is the reference material from Session 4 to accompany our code exploration:
+		https://www.datacamp.com/community/tutorials/data-structures-python
+		
+2 Follow the instruction below: 
+
+	2a Do only Step 1 and Step 2 in this blog: 
+		https://medium.com/@bikashkumars/run-machine-learning-code-on-azure-cloud-for-free-34b32e99764c
+
+	2b Sign in to Microsoft Azure Notebooks using your sign in ID: 
+		https://notebooks.azure.com/
+
+	2c Create a library by pressing "plus (+) inside a circle" sign and start creating new library. Name it as you like 
+
+	2d Upload your iPython Notebook to Azure Jupyter Notebook, by pressing "+ New" label on top shortcut menu area
+
+	2e Select "From computer" tab when "Add Items to Library" modal shows up 
+
+	2f Upload this file that you get from git pull origin master to your library: CSH1F2_2018_Session5_Class-Project.ipynb 
+
+	2g You can run a block of code and see the output by pressing Shift+Enter on your related computer keyboard
+
+3 Back to master branch in local repository to make sure you will be ready like a bread fresh from the oven: git checkout master
+
+4 Wait for further instruction from lecturer.
+
+
+Bonus :
+
+I keep posting this for your reference in Algorithm and Data Structure, some learning materials from leading universities:
+
+Stanford:	http://web.stanford.edu/class/cs166/
+Harvard:	http://sites.fas.harvard.edu/~cscie22/lectures/
+MIT:		https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/
+
+This material was an excerpt by Anton Herutomo from:
+		https://www.python.org/about/apps/
+		https://azure.microsoft.com/en-us/overview/what-is-azure/
+		http://jupyter.org/
+		https://github.com/OmkarPathak/Data-Structures-using-Python/blob/master/Arrays/Arrays.ipynb
+		https://medium.com/@bikashkumars/run-machine-learning-code-on-azure-cloud-for-free-34b32e99764c
+
