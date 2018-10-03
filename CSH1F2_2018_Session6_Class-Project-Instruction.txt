@@ -51,26 +51,23 @@ Lets move it on:
 
 ========= WORKSHEET STARTS
 
-Full Name	: ..............
+Full Name	: Dendy Hadinata
 
-Class		: ..............
+Class		: IF 42-02
 
-Student ID	: ..............
+Student ID	: 1301184078
 
 Answer for	: What do you think the meaning of "Feature " in this notebook ? 		(20 to 40 words)	(20 points)
-
-		.....................................
-		.....................................
-
+		I think this feature , we can to count trip duration and we can show the graph of it. we can  to count distance in kilometers between pickup and drop of location and count speed of taxi when riding.
+		
 Answer for	: What do you see in the relation between trip and time in this notebook ? 	(40 to 100 words)	(40 points)
-
-		.....................................
-		.....................................
+		relation between trip and time show that more time we have also more trip we have. Because distance of trip and time suitable of the law. NYC gets more visitors when NYC is warm, Trip time increases gradually over time.
+		
 
 Answer for	: Search Google, what are different types of data analysis ? 			(40 to 100 words)	(40 points)
 
-		.....................................
-		.....................................
-
-
+		Descriptive analytics. Descriptive analytics answers the question of what happened.
+		Diagnostic analytics. At this stage, historical data can be measured against other data to answer the question of why something happened.
+		Predictive analytics. Predictive analytics tells what is likely to happen.
+		Prescriptive analytics.
 ========= WORKSHEET ENDS
