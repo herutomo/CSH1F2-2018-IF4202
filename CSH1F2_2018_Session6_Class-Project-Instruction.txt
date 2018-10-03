@@ -51,25 +51,25 @@ Lets move it on:
 
 ========= WORKSHEET STARTS
 
-Full Name	: ..............
+Full Name	: Yasri Ridho Pahlevi
 
-Class		: ..............
+Class		: IF-42-02
 
-Student ID	: ..............
+Student ID	: 1301180377
 
 Answer for	: What do you think the meaning of "Feature " in this notebook ? 		(20 to 40 words)	(20 points)
 
-		.....................................
-		.....................................
+		I think the feature in this notebook makes it easy for us to calculate data analysis with visualization features by using Python for the duration of the trip and in this second feature for count speed of taxi in NYC
 
 Answer for	: What do you see in the relation between trip and time in this notebook ? 	(40 to 100 words)	(40 points)
 
-		.....................................
-		.....................................
+		The relationship between trip and time here shows that the more time we have, the more trips will be made. Because the trip distance and time are directly proportional to the law. NYC gets more visitors when NYC is warm, Trip time increases gradually over time
 
 Answer for	: Search Google, what are different types of data analysis ? 			(40 to 100 words)	(40 points)
 
-		.....................................
-		.....................................
+		Descriptive analytics. Descriptive analytics answer the question of what happened.
+		Diagnostic analytics. At this stage, historical data can be measured against other data to answer the question of why something happened. 
+		Predictive analytics. Predictive analytics tell what is likely to happen. 
+		Prescriptive analytics.
 
 ========= WORKSHEET ENDS
