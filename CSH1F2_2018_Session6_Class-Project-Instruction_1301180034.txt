@@ -1,0 +1,87 @@
+Telkom University
+Term:		2018/2019
+Subject:	CSH1F2
+Subject Name:	Introduction to Computer Science
+Topic:		Session 6
+Theme:		Class Project
+
+
+
+Instruction:
+
+This session (Week 6) we wil try to see an implementation of data visualization (data representation) in the area of Smart Cities.
+
+You are free to choose and use other materials for comparison and learning improvement.
+
+We will use and embrace the media below:
+	Python as our language technology (view only)
+	Kagggle.com as code sharing 
+
+
+The class project below will typically take around 15 to 45 minutes end to end, 
+
+please make sure you are running on a computer with minimal background processes and sufficient RAM (4GB with small number of background processes in Windows 10 Operating System) and CPU (Intel Core i5 or better), because the notebook sometimes could cause your CPU fan to swirl fast.
+
+Lets move it on:
+
+
+1 Prepare your local repository:
+
+	1a Enter the branch that you created in Session 2 by entering the folder in your computer and do : git checkout <your_student_id>
+		attention: 
+		please use the directory / folder that you have been working on since Session 2.
+		if you use a new directory or folder or new computer, you have to follow the Git initiation and related process before you start working, and I dont cover the related support in this session.
+
+	1b Do the following in your working branch inside your local repository from Session 2 : git pull origin master 
+
+		
+2 Follow the instruction below: 
+
+	2a open https://www.kaggle.com/wti200/exploratory-analysis-nyc-taxi-trip
+		it is an example of how citizen or public can dig down into exploration of city taxi trips, in this case New York City taxi.
+
+	2b try to analyze graphs in "Feature Visualization" and "Feature Engineering" sections.
+	
+	2c answer questions below in this file and submit maximum by 21.00 (09.00 PM) UTC+07.00 at 03 October 2018 (today, in 1 hour):
+
+	2d submit by issueing: git push origin <your_student_id>
+
+	2e Back to master branch in local repository to make sure you will be ready like a bread fresh from the oven: git checkout master
+
+
+========= WORKSHEET STARTS
+
+Full Name	: Rheza Ramadhan Putra
+
+Class		: IF-42-02
+
+Student ID	: 1301180034
+
+Answer for	: What do you think the meaning of "Feature " in this notebook ? 		(20 to 40 words)	(20 points)
+
+		Feature yang terdapat pada notebook tersebut berarti memunculkan suatu fitur atau output dari suatu source code, 
+                seperti fitur grafik, dan fitur lainnya.
+
+Answer for	: What do you see in the relation between trip and time in this notebook ? 	(40 to 100 words)	(40 points)
+
+		Hubungan antara trip dan time disini dimaksudkan bahwa semakin banyak kita memiliki waktu luang / kosong maka 
+                semakin banyak kita dapat meluangkan waktu nya untuk hal lainnya, seperti melakukan perjalanan ke tempat destinasi 
+                yang di inginkan, seperti menggunakan taksi. Cuaca juga berpengaruh pada banyak nya pengunjung, seperti jika di 
+                NYC cuaca sedang hangat maka pengunjung lebih banyak daripada biasanya.
+
+Answer for	: Search Google, what are different types of data analysis ? 			(40 to 100 words)	(40 points)
+
+		1. Analisis non-statistik.
+                   Analisis data non-statistika antara lain Data kualitatif, yaitu data-data yang tidak dapat di-angkakan, analisis 
+                   non-statistik lebih tepat digunakan. Data kualitatif biasanya diolah atau dianalisis berdasarkan isinya. Analisis 
+                   non-statistik ini sering juga disebut dengan analisis isi, yang mencakup analisis deskriptif, kritis, 
+                   komparatif, dan sintesis.
+
+                2. Analisis Data Statistik.
+                   Analisis data statistika diantaranya Data kuantitatif, yaitu data yang berupa angka, analisis statistik lebih 
+                   tepat digunakan statistik deskriptif dan statistik inferensial. Statistik deskriptif digunakan untuk membantu 
+                   memaparkan keadaan sebenarnya dari satu sampel penyelidikan. Penyelidikan deskriptif, Penelitian deskriptif 
+                   tidak untuk menguji suatu hipotesis. Penyelidikan yang menggunakan data kualitatif disebut penyelidikan kualitatif.
+
+
+========= WORKSHEET ENDS
