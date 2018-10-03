@@ -51,26 +51,29 @@ Lets move it on:
 
 ========= WORKSHEET STARTS
 
-Full Name	: ..............
+Full Name	: M. Affan Hafizan
 
-Class		: ..............
+Class		: IF-42-02
 
-Student ID	: ..............
+Student ID	: 1301183509
 
 Answer for	: What do you think the meaning of "Feature " in this notebook ? 		(20 to 40 words)	(20 points)
 
-		.....................................
-		.....................................
+		Dalam notebook ini banyak sekali menggunakan kata "Feature", contoh nya adalah "Feature Engineering", "Feature Visualization", dan "Feature Interaction". Dari judul-judul tersebut bisa kita simpulkan bahwa "Feature" adalah sebuah data/properti dari objek yang diobservasi, misalnya "pickup_hour" dan "mean_speed".
+
 
 Answer for	: What do you see in the relation between trip and time in this notebook ? 	(40 to 100 words)	(40 points)
 
-		.....................................
-		.....................................
+		Salah satu data yang menggunakan trip dan time adalah "Mean Trip Duration over Time". Jumlah trip semakin lama semakin meningkat seiring berjalannya waktu. Jika kita melihat pada data yang menajikan jumlah trip dibandingkan dengan bulan, bisa dilihat bahwa jumlah trip akan semakin meningkat jika mendekati pertengahan bulan. Penulis berspekulasi bahwa hal ini berhubungan dengan suhu udara pada musim panas. Ada juga data yang menyajikan jumlah trip dibandingkan jam yang dapat disimpulkan bahwa jumlah trip meningkat saat malam.
+
+		
 
 Answer for	: Search Google, what are different types of data analysis ? 			(40 to 100 words)	(40 points)
 
-		.....................................
-		.....................................
+		Descriptive Analytics - Menjalaskan "apa yang terjadi". Misalnya jumlah penjualan, jumlah pengunjung, dan sebagainya.
+		Diagnostics Analytics - Data yang diperoleh bisa dianalisis dengan data lainnya untuk menjawab pertanyaan "kenapa suatu hal terjadi".
+		Predictive Analytics - Menggunakan hasil Descriptive Analytics dan Diagnostics Analytics untuk mengetahui "apa yang akan terjadi", misalnya untuk mengetahui ramalan cuaca.
+		Prescriptive Analytics - Menggunakan hasil data untuk mengetahui "aksi apa yang harus dilakukan". Misalnya sebuah perusahaan menentukan apa barang yang harus diiklankan berdasar data pengguna.
 
 
 ========= WORKSHEET ENDS
