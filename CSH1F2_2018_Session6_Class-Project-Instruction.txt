@@ -1,20 +1,13 @@
 Telkom University
-
 Term:		2018/2019
-
 Subject:	CSH1F2
-
 Subject Name:	Introduction to Computer Science
-
 Topic:		Session 6
 Theme:		Class Project
 
 
 
 Instruction:
-
-
-
 
 This session (Week 6) we wil try to see an implementation of data visualization (data representation) in the area of Smart Cities.
 
