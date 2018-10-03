@@ -51,26 +51,30 @@ Lets move it on:
 
 ========= WORKSHEET STARTS
 
-Full Name	: ..............
+Full Name	: Sukmawati Dwi Lestari
 
-Class		: ..............
+Class		: IF-42-02
 
-Student ID	: ..............
+Student ID	: 1301184345
 
 Answer for	: What do you think the meaning of "Feature " in this notebook ? 		(20 to 40 words)	(20 points)
 
-		.....................................
-		.....................................
+		  Menurut saya fitur di notebook ini merupakan sebuah fitur yang akan memunculkan hasil output seperti grafik dari source code di notebook
 
 Answer for	: What do you see in the relation between trip and time in this notebook ? 	(40 to 100 words)	(40 points)
 
-		.....................................
-		.....................................
+		  Jelas perjalanan dipengaruhi oleh waktu, karena pada malam hari kondisi lalu lintas sepi disebabkan oleh kurangnya aktifitas manusia di malam hari 
+		  ini adalah kondisi yang menguntungkan bagi supir taxi karena Ia dapat menaikkan kecepatan mobil agar dia cepat sampai tujuan 
 
 Answer for	: Search Google, what are different types of data analysis ? 			(40 to 100 words)	(40 points)
 
-		.....................................
-		.....................................
-
-
+		1. Deskriptif (setidaknya jumlah usaha): Disiplin secara kuantitatif menggambarkan fitur-fitur utama dari kumpulan data. Intinya, ini menggambarkan satu set data.
+		2. Exploratory: Suatu pendekatan untuk menganalisis set data untuk menemukan hubungan yang tidak diketahui sebelumnya.
+		3. Inferential: Bertujuan untuk menguji teori tentang sifat dunia secara umum (atau beberapa bagian dari itu) berdasarkan sampel "subyek" yang diambil dari dunia (atau beberapa bagian dari itu). 
+				Yaitu, gunakan sampel data yang relatif kecil untuk mengatakan sesuatu tentang populasi yang lebih besar.
+                4. Prediktif: Berbagai jenis metode yang menganalisis fakta saat ini dan sejarah untuk membuat prediksi tentang peristiwa masa depan. 
+			      Intinya, menggunakan data pada beberapa objek untuk memprediksi nilai untuk objek lain.
+		5. Sebab: Untuk mengetahui apa yang terjadi pada satu variabel ketika Anda mengubah yang lain.
+		6. Mekanistik (sebagian besar upaya): Memahami perubahan yang tepat dalam variabel yang mengarah pada perubahan dalam variabel lain untuk objek individual.
+ 
 ========= WORKSHEET ENDS
