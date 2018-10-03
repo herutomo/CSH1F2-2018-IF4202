@@ -51,26 +51,39 @@ Lets move it on:
 
 ========= WORKSHEET STARTS
 
-Full Name	: ..............
+Full Name	: Ilham Izzul Hadyan
 
-Class		: ..............
+Class		: IF-42-02
 
-Student ID	: ..............
+Student ID	: 1301184065
 
 Answer for	: What do you think the meaning of "Feature " in this notebook ? 		(20 to 40 words)	(20 points)
 
-		.....................................
-		.....................................
+		fitur (feature) dalam notebook ini adalah semua yang dapat kita lakukan dan peroleh dari field data yang telah kita miliki dan menunjukkan hasil
+		dari code yang spesifik untuk menunjukkan grafik yang akan kita terima.
 
 Answer for	: What do you see in the relation between trip and time in this notebook ? 	(40 to 100 words)	(40 points)
 
-		.....................................
-		.....................................
+		pada data grafik yang telah tersedia, trip (trip_duration) dan time sangat berelasi, contoh dalam grafik durasi perjalanan dalam jarak jam,
+		banyak para pengemudi taxi NYC pada jam shift (antara jam 4 sampai 5 pagi) enggan untuk mengambil penumpang dikarenakan pada waktu pagi seperti
+		pada waktu shift banyak penumpang yang memakai taksi hanya untuk jarak yang tidak begitu jauh sehingga tidak mendapatkan banyak profit bagi pengemudi taxi.
+		dari sini telah dapat menunjukkan pada waktu shift kerja para pengemudi terjadi penurunan rata-rata durasi perjalanan (disebabkan masih pagi dan tidak macet) dan penurunan
+		penumpang pada pagi hari (mungkin disebabkan bukan jam produktif).
 
 Answer for	: Search Google, what are different types of data analysis ? 			(40 to 100 words)	(40 points)
 
-		.....................................
-		.....................................
+		dilansir dari (https://datascientistinsights.com/2013/01/29/six-types-of-analyses-every-data-scientist-should-know/), tipe dari data analisis ada 6, yaitu:
+			1.Descriptive
+				secara garis besar menggambarkan fitur utama dari kumpulan data.
+			2.Exploratory
+				data analisis secara eksploratif dari penjelasan yang dilansir dari web tsb. secara garis besar merupakan pendekatan
+				untuk menemukan hubungan set data yang belum diketahui sebelumnya
+			3.Inferential
+			4.Predictive
+				data analisis secara prediktif merupakan analisis data dari fakta fakta yang telah tersedia untuk membuat prediksi 
+				kasus yang akan datang.
+			5.Causal
+			6.Mechanistic
 
 
 ========= WORKSHEET ENDS
