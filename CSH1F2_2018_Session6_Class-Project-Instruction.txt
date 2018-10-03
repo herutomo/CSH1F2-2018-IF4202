@@ -58,25 +58,31 @@ Lets move it on:
 
 ========= WORKSHEET STARTS
 
-Full Name	: ..............
+Full Name	: Malik Wali
 
-Class		: ..............
+Class		: IF-42-02
 
-Student ID	: ..............
+Student ID	: 1301180173
 
 Answer for	: What do you think the meaning of "Feature " in this notebook ? 		(20 to 40 words)	(20 points)
 
-		.....................................
-		.....................................
+		feature mean in the notebook is data of nyc taxi trip,
+		feature visualisation for see the patern that describe data of nyc taxi trip in this notebook author use trip duration as target variable and 
+		feature engineering for processing data of nyc taxi trip. 	
 
 Answer for	: What do you see in the relation between trip and time in this notebook ? 	(40 to 100 words)	(40 points)
 
-		.....................................
-		.....................................
+		the relation between trip and time in this notebook is we can count the time to take for one taxi trip,from the time of one trip taxi do we can conclude trip duration and from trip duration author create the mean of trip duration for each hour
 
 Answer for	: Search Google, what are different types of data analysis ? 			(40 to 100 words)	(40 points)
 
-		.....................................
+		Six Types Of Analyses Every Data Scientist Should Know :
+		1. Descriptive (least amount of effort):  The discipline of quantitatively describing the main features of a collection of data. In essence, it describes a set of data.
+		2. Exploratory: An approach to analyzing data sets to find previously unknown relationships.
+		3. Inferential: Aims to test theories about the nature of the world in general (or some part of it) based on samples of “subjects” taken from the world (or some part of it). That is, use a relatively small sample of data to say something about a bigger population.
+		4. Predictive: The various types of methods that analyze current and historical facts to make predictions about future events. In essence, to use the data on some objects to predict values for another object.
+		5. Causal: To find out what happens to one variable when you change another.
+		6. Mechanistic (most amount of effort): Understand the exact changes in variables that lead to changes in other variables for individual objects.
 		.....................................
 
 
