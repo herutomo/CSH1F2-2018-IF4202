@@ -51,25 +51,29 @@ Lets move it on:
 
 ========= WORKSHEET STARTS
 
-Full Name	: ..............
+Full Name	: Seanford Revydo Suyana
 
-Class		: ..............
+Class		: IF 42 02
 
-Student ID	: ..............
+Student ID	: 1301184444	
 
 Answer for	: What do you think the meaning of "Feature " in this notebook ? 		(20 to 40 words)	(20 points)
 
-		.....................................
-		.....................................
+		"Feature" di sini berarti sebuah fitur yang akan memunculkan hasil output seperti grafik dari source code yang dituliskan di notebook.
 
 Answer for	: What do you see in the relation between trip and time in this notebook ? 	(40 to 100 words)	(40 points)
 
-		.....................................
-		.....................................
+		Hubungan antara trip dan time di sini adalah semakin banyak waktu yang kita miliki, semakin banyak juga trip yang akan dilakukan.
+		NYC mendapatkan lebih banyak pengunjung ketika cuaca NYC sedang hangat, Trip time bertambah secara bertahap seiring berjalannya waktu.
 
 Answer for	: Search Google, what are different types of data analysis ? 			(40 to 100 words)	(40 points)
 
-		.....................................
-		.....................................
+		1). Analisis non-statistik.
+   	 Analisis data non-statistika antara lain  Data kualitatif, yaitu data-data yang tidak dapat di-angkakan, analisis non-statistik lebih tepat digunakan. Data kualitatif  biasanya diolah atau dianalisis berdasarkan isinya (subtansinya).  Analisis non statistik ini  sering  juga disebut dengan analisis isi (content analysis), yang mencakup analisis deskriptif, kritis, komparatif, dan sintesis.
+
+		2). Analisis Data Statistik.
+   	 Analisis data statistika antara  lain Data kuantitatif, yaitu data yang berupa angka atau bisa diangkakan, analisis statistik lebih tepat digunakan statistik deskriptif dan statistik inferensial.  Statistik deskriptif digunakan untuk membantu memaparkan (menggambarkan)  keadaan yang sebenarnya (fakta) dari satu sampel penyelidikan.  Penyelidikan   deskriptif,  Penelitian deskriptif tidak untuk menguji suatu hipotesis. Penyelidikan yang menggunakan data kualitatif  disebut penyelidikan kualitatif.
+
+
 
 ========= WORKSHEET ENDS
