@@ -1,0 +1,73 @@
+Telkom University
+Term:		2018/2019
+Subject:	CSH1F2
+Subject Name:	Introduction to Computer Science
+Topic:		Session 6
+Theme:		Class Project
+
+
+
+Instruction:
+
+This session (Week 6) we wil try to see an implementation of data visualization (data representation) in the area of Smart Cities.
+
+You are free to choose and use other materials for comparison and learning improvement.
+
+We will use and embrace the media below:
+	Python as our language technology (view only)
+	Kagggle.com as code sharing 
+
+
+The class project below will typically take around 15 to 45 minutes end to end, 
+
+please make sure you are running on a computer with minimal background processes and sufficient RAM (4GB with small number of background processes in Windows 10 Operating System) and CPU (Intel Core i5 or better), because the notebook sometimes could cause your CPU fan to swirl fast.
+
+Lets move it on:
+
+
+1 Prepare your local repository:
+
+	1a Enter the branch that you created in Session 2 by entering the folder in your computer and do : git checkout <your_student_id>
+		attention: 
+		please use the directory / folder that you have been working on since Session 2.
+		if you use a new directory or folder or new computer, you have to follow the Git initiation and related process before you start working, and I dont cover the related support in this session.
+
+	1b Do the following in your working branch inside your local repository from Session 2 : git pull origin master 
+
+		
+2 Follow the instruction below: 
+
+	2a open https://www.kaggle.com/wti200/exploratory-analysis-nyc-taxi-trip
+		it is an example of how citizen or public can dig down into exploration of city taxi trips, in this case New York City taxi.
+
+	2b try to analyze graphs in "Feature Visualization" and "Feature Engineering" sections.
+	
+	2c answer questions below in this file and submit maximum by 21.00 (09.00 PM) UTC+07.00 at 03 October 2018 (today, in 1 hour):
+
+	2d submit by issueing: git push origin <your_student_id>
+
+	2e Back to master branch in local repository to make sure you will be ready like a bread fresh from the oven: git checkout master
+
+
+========= WORKSHEET STARTS
+
+Full Name	: Jordi Yaputra
+
+Class		: IF-42-02
+
+Student ID	: 1301180353
+
+Answer for	: What do you think the meaning of "Feature " in this notebook ? 		(20 to 40 words)	(20 points)
+
+		It is an expression in machine learning for a piece of measurable information about something. 
+		E.g. trip_duration, passenger_count, and vendor_id are 3 different features.
+
+Answer for	: What do you see in the relation between trip and time in this notebook ? 	(40 to 100 words)	(40 points)
+
+		As being said in the kaggle explanation, the mean triptime increases gradually as time passes by. But, actually there is still some peak at the Mean Trip Duration vs Month graph. So, there are no actual pattern that can be easily recognizable there.
+
+Answer for	: Search Google, what are different types of data analysis ? 			(40 to 100 words)	(40 points)
+		According to "https://datascientistinsights.com/2013/01/29/six-types-of-analyses-every-data-scientist-should-know/", there are six types of data analyses, namely: descriptive, exploratory, inferential, predictive, causal, and mechanistic. Descriptive type is used to describe main features of data quantitatively. While exploratory is to analyze data relationships. Inferential type is used to test nature theories in general based on samples of subject taken from the world. Predictive type to analyze current and prevoius facts to predict future events. Causal to find out what happens to one variable when you change another. And mechanistic is to understan the exact chanfes in variables that lead to changes in other variables for individual objects.
+
+
+========= WORKSHEET ENDS
