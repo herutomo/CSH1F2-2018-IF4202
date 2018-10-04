@@ -51,26 +51,21 @@ Lets move it on:
 
 ========= WORKSHEET STARTS
 
-Full Name	: ..............
+Full Name	: Ellen Madeline Manurung
 
-Class		: ..............
+Class		: IF 42-02
 
-Student ID	: ..............
+Student ID	: 1301184003
 
 Answer for	: What do you think the meaning of "Feature " in this notebook ? 		(20 to 40 words)	(20 points)
 
-		.....................................
-		.....................................
+		see an implementation of data visualization(data representation) in the area of smart cities
 
 Answer for	: What do you see in the relation between trip and time in this notebook ? 	(40 to 100 words)	(40 points)
-
-		.....................................
-		.....................................
-
+                 the class project below will typically take around 15 to 45 minutes end to end
+		
 Answer for	: Search Google, what are different types of data analysis ? 			(40 to 100 words)	(40 points)
 
-		.....................................
-		.....................................
-
+		statistical analysis,non-statistical analysis
 
 ========= WORKSHEET ENDS
