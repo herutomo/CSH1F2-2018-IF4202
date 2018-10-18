@@ -1,11 +1,8 @@
 Telkom University
 
 Term:		2018/2019
-
 Subject:	CSH1F2
-
 Subject Name:	Introduction to Computer Science
-
 Topic:		Session 8
 Theme:		Individual Class Project
 
@@ -13,14 +10,11 @@ Theme:		Individual Class Project
 
 Instruction:
 
-
-
-
 This session (Week 8) we will see an implementation of UIUX with the help of Ionic Creator (a web based prototyping based on NodeJS).
 As always, you are free to choose and use other materials for comparison and learning improvement.
 
 We will use and embrace the media below:
-	javascript, NodeJS as our language technology (minimum code only)
+	Javascript, NodeJS as our language technology (minimum code only)
 	https://creator.ionic.io as prototyping platform
 
 
@@ -43,13 +37,15 @@ Lets move it on:
 		
 2 Follow the instruction below: 
 
-	2a open https://docs.usecreator.com/page/tutorial-videos
+	2a Open https://docs.usecreator.com/page/tutorial-videos
 		it contains a collections of tutorials for developing hybrid mobile app with Ionic Framework.
 		please choose one of the beginner video tutorials and follow the steps in Ionic Creator.
 
-	2b export your app in the format of zip file and download your project zip file.
+	2b Export your app in the format of zip file and download your project zip file.
 		save the zip file in your student branch local repository.
+		please submit maximum at 19 October 2018 18.00 UTC+07.
+		late submission will be considered for grade = 50 for this class project; it is weighing 20% of your total grade for this course.
 	
-	2d submit individual class project by issuing: git push origin <your_student_id>
+	2c Submit individual class project by issuing: git push origin <your_student_id>
 
-	2e Back to master branch in local repository to make sure you will be ready like a bread fresh from the oven: git checkout master
+	2d Back to master branch in local repository to make sure you will be ready like a bread fresh from the oven: git checkout master
