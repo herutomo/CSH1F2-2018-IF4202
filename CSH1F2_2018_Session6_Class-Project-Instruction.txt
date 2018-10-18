@@ -51,25 +51,26 @@ Lets move it on:
 
 ========= WORKSHEET STARTS
 
-Full Name	: ..............
+Full Name	: Rizka Marina Dewi
 
-Class		: ..............
+Class		: IF-42-02
 
-Student ID	: ..............
+Student ID	: 1301184242
 
 Answer for	: What do you think the meaning of "Feature " in this notebook ? 		(20 to 40 words)	(20 points)
 
-		.....................................
-		.....................................
+		  Menurut saya, "feature" pada notebook ini memudahkan kita untuk menganalisis data dengan fitur visualisasi menggunakan Phyton untuk menghitung
+                  durasi perjalanan dan kecepatan taxi di New York City.
 
 Answer for	: What do you see in the relation between trip and time in this notebook ? 	(40 to 100 words)	(40 points)
 
-		.....................................
-		.....................................
+		  Hubungan antara perjalanan dan waktu adalah semakin banyak waktu yang kita punya, maka semakin jauh perjalanan yang kita tempuh. Karena jarak tempuh
+                  dengan waktu yang dibutuhkan merupakan sesuatu yang berbanding lurus, maka jarak tempuh akan terus bertambah seiring berjalannya waktu.
 
 Answer for	: Search Google, what are different types of data analysis ? 			(40 to 100 words)	(40 points)
 
-		.....................................
-		.....................................
+		  1. Descriptive analytics. Descriptive analytics answers the question of what happened.
+                  2. Diagnostic analytics. At this stage, historical data can be measured against other data to answer the question of why something happened.
+                  3. Predictive analytics. Predictive analytics tells what is likely to happen. 
 
 ========= WORKSHEET ENDS
