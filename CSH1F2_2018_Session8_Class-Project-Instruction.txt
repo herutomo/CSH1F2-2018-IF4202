@@ -1,0 +1,55 @@
+Telkom University
+
+Term:		2018/2019
+
+Subject:	CSH1F2
+
+Subject Name:	Introduction to Computer Science
+
+Topic:		Session 8
+Theme:		Individual Class Project
+
+
+
+Instruction:
+
+
+
+
+This session (Week 8) we will see an implementation of UIUX with the help of Ionic Creator (a web based prototyping based on NodeJS).
+As always, you are free to choose and use other materials for comparison and learning improvement.
+
+We will use and embrace the media below:
+	javascript, NodeJS as our language technology (minimum code only)
+	https://creator.ionic.io as prototyping platform
+
+
+The class project below will typically take around 15 to 60 minutes end to end, 
+
+please make sure you are running on a computer with minimal background processes and sufficient RAM (4GB with small number of background processes in Windows 10 Operating System) and CPU (Intel Core i5 or better).
+
+Lets move it on:
+
+
+1 Prepare your local repository:
+
+	1a Enter the branch that you created in Session 2 by entering the folder in your computer and do : git checkout <your_student_id>
+		attention: 
+		again, please use the directory / folder that you have been working on since Session 2.
+		if you use a new directory or folder or new computer, you have to follow the Git initiation and related process before you start working, and I dont cover the related support in this session to optimize focus.
+
+	1b Do the following in your working branch inside your local repository from Session 2 : git pull origin master 
+
+		
+2 Follow the instruction below: 
+
+	2a open https://docs.usecreator.com/page/tutorial-videos
+		it contains a collections of tutorials for developing hybrid mobile app with Ionic Framework.
+		please choose one of the beginner video tutorials and follow the steps in Ionic Creator.
+
+	2b export your app in the format of zip file and download your project zip file.
+		save the zip file in your student branch local repository.
+	
+	2d submit individual class project by issuing: git push origin <your_student_id>
+
+	2e Back to master branch in local repository to make sure you will be ready like a bread fresh from the oven: git checkout master
