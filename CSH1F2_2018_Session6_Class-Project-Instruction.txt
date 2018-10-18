@@ -69,6 +69,8 @@ Answer for	: What do you see in the relation between trip and time in this noteb
 		
 
 Answer for	: Search Google, what are different types of data analysis ? 			(40 to 100 words)	(40 points)
+			1). Analisis non-statistik.
+        Analisis data non-statistika antara lain  Data kualitatif, yaitu data-data yang tidak dapat di-angkakan, analisis non-statistik lebih tepat digunakan. Data kualitatif  biasanya diolah atau dianalisis berdasarkan isinya (subtansinya).  Analisis non statistik ini  sering  juga disebut dengan analisis isi (content analysis), yang mencakup analisis deskriptif, kritis, komparatif, dan sintesis.
 
 		Descriptive Analytics - Menjalaskan "apa yang terjadi". Misalnya jumlah penjualan, jumlah pengunjung, dan sebagainya.
 		Diagnostics Analytics - Data yang diperoleh bisa dianalisis dengan data lainnya untuk menjawab pertanyaan "kenapa suatu hal terjadi".
