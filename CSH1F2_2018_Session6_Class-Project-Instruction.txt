@@ -50,7 +50,6 @@ Lets move it on:
 
 
 ========= WORKSHEET STARTS
-
 Full Name	: Ilham Izzul Hadyan
 
 Class		: IF-42-02
@@ -71,6 +70,8 @@ Answer for	: What do you see in the relation between trip and time in this noteb
 		penumpang pada pagi hari (mungkin disebabkan bukan jam produktif).
 
 Answer for	: Search Google, what are different types of data analysis ? 			(40 to 100 words)	(40 points)
+			1). Analisis non-statistik.
+        Analisis data non-statistika antara lain  Data kualitatif, yaitu data-data yang tidak dapat di-angkakan, analisis non-statistik lebih tepat digunakan. Data kualitatif  biasanya diolah atau dianalisis berdasarkan isinya (subtansinya).  Analisis non statistik ini  sering  juga disebut dengan analisis isi (content analysis), yang mencakup analisis deskriptif, kritis, komparatif, dan sintesis.
 
 		dilansir dari (https://datascientistinsights.com/2013/01/29/six-types-of-analyses-every-data-scientist-should-know/), tipe dari data analisis ada 6, yaitu:
 			1.Descriptive
