@@ -1,0 +1,488 @@
+Telkom University
+
+
+Term:		2018/2019
+
+Subject:	CSH1F2
+
+Subject Name:	Introduction to Computer Science
+
+Topic:		Session 9, Session 10, Session 11
+Theme:		Group Class Project
+
+
+
+Instruction:
+
+
+
+
+This session (Week 9 to 11) we will see an implementation of modern software development through experience in building a web application using serverless technology in Microsoft Azure Cloud.
+
+This class project is equal to the experience of 3 sessions and therefore need focus, dedication, and concentration as well as proper allocation of time.
+Do not delay to execute this class project task, as you might encounter some glitches and frills on the way, so better factor in this risk:
+It will be started at 		19.00 UTC+07 02 November 2018,
+maximum submission time at 	19.00 UTC+07 03 November 2018.
+
+Submission more than the above mentioned time will be considered 0 in your individual grade.
+
+Submission will need to be done by 1 person only through Whatsapp +62 812 83212168, denoting:
+1 URL of your web application.
+2 full name and student ID of team members in your group.
+
+Please make sure that all of you have opened a Microsoft Azure Cloud account using your telkomuniversity.ac.id student email, so that you dont need to use any credit card credential but still get free credit for 30 days.
+
+
+
+
+
+>>>>>>>>> START OF PROJECT DOCUMENT >>>>>>>>>
+
+
+
+The project task is to finish all steps in this Microsoft Azure tutorial:
+https://docs.microsoft.com/en-us/azure/functions/tutorial-static-website-serverless-api-with-database
+Please use one (just 1, not all) of your team member's Azure account ID to login to Azure Portal dan Azure Console to complete all tasks in the above tutorial.
+
+
+
+I have some image captures in Github account, you can pull the content if you need to. Please also note that in your project execution process:
+
+
+STEP 2 of 7
+
+(*)
+In some cases, --g option in azure cloud command should be replaced by --resource-group, for example this command :
+az functionapp config appsettings set --name <function app name> --g first-serverless-app --settings FUNCTIONS_EXTENSION_VERSION=~1
+should be this:
+az functionapp config appsettings set --name fist-serverless-api --resource-group first-serverless-app --settings FUNCTIONS_EXTENSION_VERSION=~1
+
+(*)
+Although sometimes Azure Cloud alerts you that you " can not scale in this region " (with red fonts after isuing command), you can doublecheck in Azure Portal by clicking " All Resources " menu in the left, and check whether your Cloud Functions app has been created.
+In my case, I created default storage account in "southeastasia" region, but can successfully created Function app in "westcentralus" region. You might have different experience.
+
+(*)
+In Section "Modify the web app to upload images", you will see an instruction to create settings.js. use any Unix editor, the most basic is vi or vim.
+Discuss with your friends or ask Grandpa Google on how to edit in Unix environment or just follow the instruction.
+
+(*)
+This is an example of blob upload error.
+If you experience similar error like the capture below:
+   az storage blob upload: error: 400 Client Error: Bad Request for url: http://localhost:50342/oauth2/token
+Please check your environment variables:
+   $AZURE_STORAGE_CONNECTION_STRING
+   $STORAGE_CONNECTION_STRING
+   $FUNCTION_APP_URL
+   $BLOB_BASE_URL
+
+>>>>>>>>>
+
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$ cd ~/functions-first-serverless-web-application/www/dist
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$ az functionapp config appsettings set -n first-serverless-api -g first-serverless-app --settings AZURE_STORAGE_CONNECTION_STRING=$STORAGE_CONNECTION_STRING -o table
+Name                                      SlotSetting    Value
+----------------------------------------  -------------  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FUNCTIONS_EXTENSION_VERSION               False          ~1
+AzureWebJobsStorage                       False          DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=1ststor;AccountKey=8jWASSamnN2WUoQd7tg/SURO5E96rJb2RbtI0nQqas0rxlUWukEXU82Esmm1fKBkPVMEDkWJRor4piFUKG9xhw==
+AzureWebJobsDashboard                     False          DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=1ststor;AccountKey=8jWASSamnN2WUoQd7tg/SURO5E96rJb2RbtI0nQqas0rxlUWukEXU82Esmm1fKBkPVMEDkWJRor4piFUKG9xhw==
+WEBSITE_NODE_DEFAULT_VERSION              False          6.5.0
+WEBSITE_CONTENTAZUREFILECONNECTIONSTRING  False          DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=1ststor;AccountKey=8jWASSamnN2WUoQd7tg/SURO5E96rJb2RbtI0nQqas0rxlUWukEXU82Esmm1fKBkPVMEDkWJRor4piFUKG9xhw==
+WEBSITE_CONTENTSHARE                      False          first-serverless-api
+AZURE_STORAGE_CONNECTION_STRING           False          DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=1ststor;AccountKey=8jWASSamnN2WUoQd7tg/SURO5E96rJb2RbtI0nQqas0rxlUWukEXU82Esmm1fKBkPVMEDkWJRor4piFUKG9xhw==
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$ az functionapp list
+[
+  {
+    "appServicePlanId": "/subscriptions/0ce9452d-5f9b-4165-b663-5bc4934165e7/resourceGroups/first-serverless-app/providers/Microsoft.Web/serverfarms/WestCentralUSPlan",
+    "availabilityState": "Normal",
+    "clientAffinityEnabled": true,
+    "clientCertEnabled": false,
+    "cloningInfo": null,
+    "containerSize": 1536,
+    "dailyMemoryTimeQuota": 0,
+    "defaultHostName": "first-serverless-api.azurewebsites.net",
+    "enabled": true,
+    "enabledHostNames": [
+      "first-serverless-api.azurewebsites.net",
+      "first-serverless-api.scm.azurewebsites.net"
+    ],
+    "hostNameSslStates": [
+      {
+        "hostType": "Standard",
+        "ipBasedSslResult": null,
+        "ipBasedSslState": "NotConfigured",
+        "name": "first-serverless-api.azurewebsites.net",
+        "sslState": "Disabled",
+        "thumbprint": null,
+        "toUpdate": null,
+        "toUpdateIpBasedSsl": null,
+        "virtualIp": null
+      },
+      {
+        "hostType": "Repository",
+        "ipBasedSslResult": null,
+        "ipBasedSslState": "NotConfigured",
+        "name": "first-serverless-api.scm.azurewebsites.net",
+        "sslState": "Disabled",
+        "thumbprint": null,
+        "toUpdate": null,
+        "toUpdateIpBasedSsl": null,
+        "virtualIp": null
+      }
+    ],
+    "hostNames": [
+      "first-serverless-api.azurewebsites.net"
+    ],
+    "hostNamesDisabled": false,
+    "hostingEnvironmentProfile": null,
+    "httpsOnly": false,
+    "hyperV": null,
+    "id": "/subscriptions/0ce9452d-5f9b-4165-b663-5bc4934165e7/resourceGroups/first-serverless-app/providers/Microsoft.Web/sites/first-serverless-api",
+    "identity": null,
+    "isDefaultContainer": null,
+    "isXenon": false,
+    "kind": "functionapp",
+    "lastModifiedTimeUtc": "2018-11-02T08:56:28.980000",
+    "location": "West Central US",
+    "maxNumberOfWorkers": null,
+    "name": "first-serverless-api",
+    "outboundIpAddresses": "13.78.150.201,13.78.150.153,13.78.148.178,13.78.150.208",
+    "possibleOutboundIpAddresses": "13.78.150.201,13.78.150.153,13.78.148.178,13.78.150.208,13.78.150.201,13.78.150.153,13.78.148.178,13.78.150.208",
+    "repositorySiteName": "first-serverless-api",
+    "reserved": false,
+    "resourceGroup": "first-serverless-app",
+    "scmSiteAlsoStopped": false,
+    "siteConfig": null,
+    "slotSwapStatus": null,
+    "state": "Running",
+    "suspendedTill": null,
+    "tags": null,
+    "targetSwapSlot": null,
+    "trafficManagerHostNames": null,
+    "type": "Microsoft.Web/sites",
+    "usageState": "Normal"
+  }
+]
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$ export FUNCTION_APP_URL="https://"$(az functionapp show -n first-serverless-api -g first-serverless-app --query "defaultHostName" --output tsv)
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$ echo $FUNCTION_APP_URLhttps://first-serverless-api.azurewebsites.netfa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$ cat settings.js
+window.apiBaseUrl = 'https://first-serverless-api.azurewebsites.net'
+window.blobBaseUrl = 'https://1ststor.blob.core.windows.net'
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$ export BLOB_BASE_URL=$(az storage account show -n 1ststor -g first-serverless-app --query primaryEndpoints.blob -o tsv | sed 's/\/$//')fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$ echo $BLOB_BASE_URLhttps://1ststor.blob.core.windows.netfa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$ az storage blob upload-c \$web --account-name 1ststor -f settings.js -n settings.jsusage: az storage blob upload [-h] [--verbose] [--debug]
+                              [--output {json,jsonc,table,tsv,yaml}]
+                              [--query JMESPATH] [--account-name ACCOUNT_NAME]
+                              [--account-key ACCOUNT_KEY]
+                              [--connection-string CONNECTION_STRING]
+                              [--sas-token SAS_TOKEN] --container-name
+                              CONTAINER_NAME --name BLOB_NAME --file FILE_PATH
+                              [--type {block,page,append}]
+                              [--metadata METADATA [METADATA ...]]
+                              [--validate-content]
+                              [--maxsize-condition MAXSIZE_CONDITION]
+                              [--max-connections MAX_CONNECTIONS]
+                              [--lease-id LEASE_ID]
+                              [--tier {P10,P20,P30,P4,P40,P50,P6,P60}]
+                              [--if-modified-since IF_MODIFIED_SINCE]
+                              [--if-unmodified-since IF_UNMODIFIED_SINCE]
+                              [--if-match IF_MATCH]
+                              [--if-none-match IF_NONE_MATCH]
+                              [--timeout TIMEOUT] [--auth-mode {login,key}]
+                              [--content-type CONTENT_TYPE]
+                              [--content-encoding CONTENT_ENCODING]
+                              [--content-language CONTENT_LANGUAGE]
+                              [--content-disposition CONTENT_DISPOSITION]
+                              [--content-cache-control CONTENT_CACHE_CONTROL]
+                              [--content-md5 CONTENT_MD5] [--no-progress]
+                              [--socket-timeout SOCKET_TIMEOUT]
+                              [--subscription _SUBSCRIPTION]
+az storage blob upload: error: 400 Client Error: Bad Request for url: http://localhost:50342/oauth2/token
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$
+
+>>>>>>>>>
+
+After environment variables have been properly set, you can see a list of uploaded file in the ned of Step 2.
+
+>>>>>>>>>
+
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$ az storage blob list --account-name 1ststor -c images -o table
+Name                                     Blob Type    Blob Tier    Length    Content Type    Last Modified   Snapshot
+---------------------------------------  -----------  -----------  --------  --------------  -------------------------  ----------
+agile-vs-waterfall-fixed-n-variable.png  BlockBlob    Hot          75770     image/png       2018-11-02T08:42:00+00:00
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$
+
+>>>>>>>>>
+
+
+STEP 3 of 7
+
+(*)
+The command " npm install jimp " will sometimes take longer than 3 minutes, please be patient and wait for the process to successfully finish.
+
+(*)
+Make sure you delete all files in thumbnails and images before proceeding to STEP 4.
+
+>>>>>>>>>
+
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$ az storage blob list --account-name 1ststor -c images -o table
+Name                               Blob Type    Blob Tier    Length    Content Type    Last Modified              Snapshot
+---------------------------------  -----------  -----------  --------  --------------  -------------------------  ----------
+5-Minutes-Parking-Sign-K-8769.gif  BlockBlob    Hot          24856     image/gif       2018-11-02T09:16:02+00:00
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$ az storage blob list --account-name 1ststor -c thumbnails -o table
+Name                                     Blob Type    Blob Tier    Length    Content Type              Last Modified             Snapshot
+---------------------------------------  -----------  -----------  --------  ------------------------  -------------------------  ----------
+5-Minutes-Parking-Sign-K-8769.gif        BlockBlob    Hot          5903      application/octet-stream  2018-11-02T09:16:12+00:00
+agile-vs-waterfall-fixed-n-variable.png  BlockBlob    Hot          6627      application/octet-stream  2018-11-02T08:42:32+00:00
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$ az storage blob url --account-name 1ststor -c thumbnails -n 5-Minutes-Parking-Sign-K-8769.gif --output tsv
+https://1ststor.blob.core.windows.net/thumbnails/5-Minutes-Parking-Sign-K-8769.gif
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$ az storage blob delete-batch -s images --account-name 1ststor
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$ az storage blob delete-batch -s thumbnails --account-name 1ststor
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~/functions-first-serverless-web-application/www/dist$
+
+>>>>>>>>>
+
+
+STEP 4 of 7
+
+(*)
+You might encounter error when creating Cosmos DB.
+Section = Create a Cosmos DB account, database, and collection.
+Again, you can doublecheck the DB creation by checking in Azure Portal > All Resources (menu on the left side).
+If Cosmos DB has been created, you can proceed to next step. Or alternatively, delete Cosmos DB in Azure Portal, and re execute command in Azure Console (see also next note).
+Dont be fooled by Microsoft Azure Console's output, you know the habits of Microsoft :-D
+
+>>>>>>>>>
+
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$ az cosmosdb create -g first-serverless-app -n 1stcosmosdbError occurred in request., RetryError: HTTPSConnectionPool(host='management.azure.com', port=443): Max retries exceeded with url: /subscriptions/0ce9452d-5f9b-4165-b663-5bc4934165e7/resourceGroups/first-serverless-app/providers/Microsoft.DocumentDB/databaseAccounts/1stcosmosdb/operationResults/6fbff4ee-8fe7-436d-902f-8adfe4003b9c?api-version=2015-04-08 (Caused by ResponseError('too many 503 error responses',))
+Traceback (most recent call last):  File "/opt/az/lib/python3.6/site-packages/requests/adapters.py", line 449, in send    timeout=timeout  File "/opt/az/lib/python3.6/site-packages/urllib3/connectionpool.py", line 731, in urlopen
+    body_pos=body_pos, **response_kw)
+  File "/opt/az/lib/python3.6/site-packages/urllib3/connectionpool.py", line 731, in urlopen    body_pos=body_pos, **response_kw)
+  File "/opt/az/lib/python3.6/site-packages/urllib3/connectionpool.py", line 731, in urlopen    body_pos=body_pos, **response_kw)
+  File "/opt/az/lib/python3.6/site-packages/urllib3/connectionpool.py", line 711, in urlopen    retries = retries.increment(method, url, response=response, _pool=self)
+  File "/opt/az/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='management.azure.com', port=443): Max retries exceeded with url: /subscriptions/0ce9452d-5f9b-4165-b663-5bc4934165e7/resourceGroups/first-serverless-app/providers/Microsoft.DocumentDB/databaseAccounts/1stcosmosdb/operationResults/6fbff4ee-8fe7-436d-902f-8adfe4003b9c?api-version=2015-04-08 (Caused by ResponseError('too many 503 error responses',))
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/az/lib/python3.6/site-packages/msrest/universal_http/requests.py", line 137, in send    **kwargs)
+  File "/opt/az/lib/python3.6/site-packages/requests/sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)  File "/opt/az/lib/python3.6/site-packages/requests/sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/az/lib/python3.6/site-packages/requests/adapters.py", line 507, in send    raise RetryError(e, request=request)
+requests.exceptions.RetryError: HTTPSConnectionPool(host='management.azure.com', port=443): Max retries exceeded with url: /subscriptions/0ce9452d-5f9b-4165-b663-5bc4934165e7/resourceGroups/first-serverless-app/providers/Microsoft.DocumentDB/databaseAccounts/1stcosmosdb/operationResults/6fbff4ee-8fe7-436d-902f-8adfe4003b9c?api-version=2015-04-08 (Caused by ResponseError('too many 503 error responses',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/az/lib/python3.6/site-packages/knack/cli.py", line 197, in invoke
+    cmd_result = self.invocation.execute(args)
+  File "/opt/az/lib/python3.6/site-packages/azure/cli/core/commands/__init__.py", line 372, in execute
+    six.reraise(*sys.exc_info())
+  File "/opt/az/lib/python3.6/site-packages/six.py", line 693, in reraise
+    raise value
+  File "/opt/az/lib/python3.6/site-packages/azure/cli/core/commands/__init__.py", line 346, in execute
+    result = cmd(params)
+  File "/opt/az/lib/python3.6/site-packages/azure/cli/core/commands/__init__.py", line 182, in __call__
+    return self.handler(*args, **kwargs)
+  File "/opt/az/lib/python3.6/site-packages/azure/cli/core/__init__.py", line 436, in default_command_handler
+    result = op(**command_args)
+  File "/opt/az/lib/python3.6/site-packages/azure/cli/command_modules/cosmosdb/custom.py", line 86, in cli_cosmosdb_create
+    docdb_account = async_docdb_create.result()
+  File "/opt/az/lib/python3.6/site-packages/msrest/polling/poller.py", line 183, in result
+    self.wait(timeout)
+  File "/opt/az/lib/python3.6/site-packages/msrest/polling/poller.py", line 201, in wait
+    raise self._exception  # type: ignore
+  File "/opt/az/lib/python3.6/site-packages/msrest/polling/poller.py", line 152, in _start
+    self._polling_method.run()
+  File "/opt/az/lib/python3.6/site-packages/msrestazure/polling/arm_polling.py", line 365, in run
+    self._poll()
+  File "/opt/az/lib/python3.6/site-packages/msrestazure/polling/arm_polling.py", line 390, in _poll
+    self.update_status()
+  File "/opt/az/lib/python3.6/site-packages/msrestazure/polling/arm_polling.py", line 422, in update_status
+    self._response = self.request_status(self._operation.location_url)
+  File "/opt/az/lib/python3.6/site-packages/msrestazure/polling/arm_polling.py", line 445, in request_status
+    return self._client.send(request, header_parameters, stream=False, **self._operation_config)
+  File "/opt/az/lib/python3.6/site-packages/msrest/service_client.py", line 219, in send
+    pipeline_response = self.config.pipeline.run(request, **kwargs)
+  File "/opt/az/lib/python3.6/site-packages/msrest/pipeline/__init__.py", line 203, in run
+    return first_node.send(pipeline_request, **kwargs)  # type: ignore
+  File "/opt/az/lib/python3.6/site-packages/msrest/pipeline/__init__.py", line 156, in send
+    response = self.next.send(request, **kwargs)
+  File "/opt/az/lib/python3.6/site-packages/msrest/pipeline/requests.py", line 72, in send
+    return self.next.send(request, **kwargs)
+  File "/opt/az/lib/python3.6/site-packages/msrest/pipeline/requests.py", line 137, in send
+    return self.next.send(request, **kwargs)
+  File "/opt/az/lib/python3.6/site-packages/msrest/pipeline/__init__.py", line 156, in send
+    response = self.next.send(request, **kwargs)
+  File "/opt/az/lib/python3.6/site-packages/msrest/pipeline/requests.py", line 193, in send
+    self.driver.send(request.http_request, **kwargs)
+  File "/opt/az/lib/python3.6/site-packages/msrest/universal_http/requests.py", line 328, in send
+    return super(RequestsHTTPSender, self).send(request, **requests_kwargs)
+  File "/opt/az/lib/python3.6/site-packages/msrest/universal_http/requests.py", line 140, in send
+    raise_with_traceback(ClientRequestError, msg, err)
+  File "/opt/az/lib/python3.6/site-packages/msrest/exceptions.py", line 54, in raise_with_traceback
+    raise error.with_traceback(exc_traceback)
+  File "/opt/az/lib/python3.6/site-packages/msrest/universal_http/requests.py", line 137, in send
+    **kwargs)
+  File "/opt/az/lib/python3.6/site-packages/requests/sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/az/lib/python3.6/site-packages/requests/sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/az/lib/python3.6/site-packages/requests/adapters.py", line 507, in send
+    raise RetryError(e, request=request)
+msrest.exceptions.ClientRequestError: Error occurred in request., RetryError: HTTPSConnectionPool(host='management.azure.com', port=443): Max retries exceeded with url: /subscriptions/0ce9452d-5f9b-4165-b663-5bc4934165e7/resourceGroups/first-serverless-app/providers/Microsoft.DocumentDB/databaseAccounts/1stcosmosdb/operationResults/6fbff4ee-8fe7-436d-902f-8adfe4003b9c?api-version=2015-04-08 (Caused by ResponseError('too many 503 error responses',))
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$ az cosmosdb database create -g first-serverless-app -n 1stcosmosdb --db-name imagesdb
+Failed to instantiate an Azure Cosmos DB client using the provided credential 404 Client Error: NotFound for url: https://management.azure.com/subscriptions/0ce9452d-5f9b-4165-b663-5bc4934165e7/resourceGroups/first-serverless-app/providers/Microsoft.DocumentDB/databaseAccounts/1stcosmosdb/listKeys?api-version=2015-04-08
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$
+
+>>>>>>>>>
+
+(*)
+If after 2 to 3 trials, Cosmos DB can not be generated via Azure Console, shift to Azure Portal and create Cosmos DB from there.
+Check my image capture for example: CSH1F2_2018_Session9-10-11_Capture Azure - 10 Step 4 Create Cosmos DB Through Portal.JPG
+I did it this way.
+
+>>>>>>>>>
+
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$ az cosmosdb database create -g first-serverless-app -n 1stcosmosdb --db-name imagesdb
+{
+  "_colls": "colls/",
+  "_etag": "\"0000a600-0000-0000-0000-5bdc204f0000\"",
+  "_rid": "D0JpAA==",
+  "_self": "dbs/D0JpAA==/",
+  "_ts": 1541152847,
+  "_users": "users/",
+  "id": "imagesdb"
+}
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$ az cosmosdb collection create -g first-serverless-app -n 1stcosmosdb --db-name imagesdb --collection-name images --throughput 400
+{
+  "collection": {
+    "_conflicts": "conflicts/",
+    "_docs": "docs/",
+    "_etag": "\"0000a800-0000-0000-0000-5bdc20a90000\"",
+    "_rid": "D0JpAMdgqTc=",
+    "_self": "dbs/D0JpAA==/colls/D0JpAMdgqTc=/",
+    "_sprocs": "sprocs/",
+    "_triggers": "triggers/",
+    "_ts": 1541152937,
+    "_udfs": "udfs/",
+    "id": "images",
+    "indexingPolicy": {
+      "automatic": true,
+      "excludedPaths": [],
+      "includedPaths": [
+        {
+          "indexes": [
+            {
+              "dataType": "String",
+              "kind": "Range",
+              "precision": -1
+            },
+            {
+              "dataType": "Number",
+              "kind": "Range",
+              "precision": -1
+            }
+          ],
+          "path": "/*"
+        }
+      ],
+      "indexingMode": "consistent"
+    }
+  },
+  "offer": {
+    "_etag": "\"0000a900-0000-0000-0000-5bdc20a90000\"",
+    "_rid": "RrMh",
+    "_self": "offers/RrMh/",
+    "_ts": 1541152937,
+    "content": {
+      "offerIsAutoScaleEnabled": false,
+      "offerIsRUPerMinuteThroughputEnabled": false,
+      "offerThroughput": 400,
+      "userSpecifiedThroughput": 400
+    },
+    "id": "RrMh",
+    "offerResourceId": "D0JpAMdgqTc=",
+    "offerType": "Invalid",
+    "offerVersion": "V2",
+    "resource": "dbs/D0JpAA==/colls/D0JpAMdgqTc=/"
+  }
+}
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$
+
+>>>>>>>>>
+
+
+STEP 5 of 7
+
+(*)
+Computer Vision API will be activated through Azure Console.
+
+>>>>>>>>>
+
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$ az cognitiveservices account create -g first-serverless-app -n 1stcvis --kind ComputerVision --sku F0 -l westcentralus
+Notice
+Microsoft will use data you send to Bing Search Services or the Translator Speech API to improve Microsoft products and services.Where you send personal data to these Cognitive Services, you are responsible for obtaining sufficient consent from the data subjects.The General Privacy and Security Terms in the Online Services Terms do not apply to these Cognitive Services.Please refer to the Microsoft Cognitive Services section in the Online Services Terms (https://www.microsoft.com/en-us/Licensing/product-licensing/products.aspx) for details.Microsoft offers policy controls that may be used to disable new Cognitive Services deployments (https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account).
+
+Please select (y/n): y
+{
+  "endpoint": "https://westcentralus.api.cognitive.microsoft.com/",
+  "etag": "\"6d0064df-0000-0000-0000-5bdc27540000\"",
+  "id": "/subscriptions/0ce9452d-5f9b-4165-b663-5bc4934165e7/resourceGroups/first-serverless-app/providers/Microsoft.CognitiveServices/accounts/1stcvis",
+  "internalId": "e2bf0fce982d4da496f50390dc1f0c12",
+  "kind": "ComputerVision",
+  "location": "westcentralus",
+  "name": "1stcvis",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "first-serverless-app",
+  "sku": {
+    "name": "F0",
+    "tier": null
+  },
+  "tags": null,
+  "type": "Microsoft.CognitiveServices/accounts"
+}
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$ export COMP_VISION_KEY=$(az cognitiveservices account keys list -g first-serverless-app -n 1stcvis --query key1 --output tsv)
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$ export COMP_VISION_URL=$(az cognitiveservices account show -g first-serverless-app -n 1stcvis --query endpoint --output tsv)
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$ az functionapp config appsettings set -n first-serverless-api -g first-serverless-app --settings COMP_VISION_KEY=$COMP_VISION_KEY COMP_VISION_URL=$COMP_VISION_URL -o table
+Name                                      SlotSetting    Value
+----------------------------------------  -------------  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FUNCTIONS_EXTENSION_VERSION               False          ~1
+AzureWebJobsStorage                       False          DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=1ststor;AccountKey=8jWASSamnN2WUoQd7tg/SURO5E96rJb2RbtI0nQqas0rxlUWukEXU82Esmm1fKBkPVMEDkWJRor4piFUKG9xhw==
+AzureWebJobsDashboard                     False          DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=1ststor;AccountKey=8jWASSamnN2WUoQd7tg/SURO5E96rJb2RbtI0nQqas0rxlUWukEXU82Esmm1fKBkPVMEDkWJRor4piFUKG9xhw==
+WEBSITE_NODE_DEFAULT_VERSION              False          6.5.0
+WEBSITE_CONTENTAZUREFILECONNECTIONSTRING  False          DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=1ststor;AccountKey=8jWASSamnN2WUoQd7tg/SURO5E96rJb2RbtI0nQqas0rxlUWukEXU82Esmm1fKBkPVMEDkWJRor4piFUKG9xhw==
+WEBSITE_CONTENTSHARE                      False          first-serverless-api
+AZURE_STORAGE_CONNECTION_STRING           False          DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=1ststor;AccountKey=8jWASSamnN2WUoQd7tg/SURO5E96rJb2RbtI0nQqas0rxlUWukEXU82Esmm1fKBkPVMEDkWJRor4piFUKG9xhw==
+1stcosmosdb_DOCUMENTDB                    False          AccountEndpoint=https://1stcosmosdb.documents.azure.com:443/;AccountKey=D0npzmCH3jL9T9bFlf7PJXcyatjd9sajg3WDI5E8z7FfCs0r4r1Ne0aT05sCR7Fso6kA5bjrhoObaGgNj0Afug==;
+COMP_VISION_KEY                           False          e9be815d669145119d920c0d60eacf94
+COMP_VISION_URL                           False          https://westcentralus.api.cognitive.microsoft.com/
+fa57a7d5-3142-48fe-aaaf-4ce0ae17@Azure:~$
+
+>>>>>>>>>
+
+(*)
+When you " Upload Image " and then " Analyzing Image ", it can take around 30 seconds to 60 seconds or even sometimes failed to recognize the image.
+
+
+
+>>>>>>>>> END OF PROJECT DOCUMENT >>>>>>>>>
