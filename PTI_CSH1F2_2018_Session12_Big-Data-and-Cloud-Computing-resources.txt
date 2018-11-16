@@ -1,0 +1,33 @@
+
+
+*** Materials from Google Digital Conference Lets Talk AI - Data and Analytics Track - held on 15 November 2018
+
+Big data in the cloud - foundation for AI :
+https://www.youtube.com/watch?time_continue=312&v=Ly4nWBgqPcs
+
+The zen guide for preparing data for ML :
+https://youtu.be/jwMwWUbOV0E
+
+Data for AI with real time data processing :
+https://youtu.be/_P8B-G9gtFs
+
+Google Big Query - data warehouse for AI first paradigm :
+https://youtu.be/PipMz3Oq63s
+
+
+
+*** Materials from AWSome Day held on 31 October 2018 *** 
+
+https://aws.amazon.com/events/awsome-day/awsome-day-online/?sc_channel=em&sc_campaign=APAC_EV_awsome-day-online-conference_20180531&sc_publisher=aws&sc_medium=em_&sc_content=event_ev_ot&sc_country=mult&sc_geo=apac&sc_category=mult&sc_outcome=event&trkCampaign=awsomedayonlineconference_2018&trk=em_1day_agenda
+
+Module 1: AWS and Cloud Computing, Foundational Services, and Platform Services: https://youtu.be/K3qbY8j_Qfs
+
+Module 2: VPC, EC2, Demo: https://youtu.be/xToY64aiCgc
+
+Module 3: RDS and DynamoDB, S3, IAM, Conclusion: https://youtu.be/2-F4bariCcs
+
+Click on the below link for AWS instructional videos and self-paced labs:
+
+https://aws.amazon.com/training/intro...
+
+
